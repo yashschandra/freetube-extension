@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Freetube Extension",
+  "version": "1.0",
+  "description": "An example Chrome extension that uses the tabs API.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
